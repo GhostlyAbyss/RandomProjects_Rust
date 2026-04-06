@@ -43,6 +43,10 @@ impl Grid{
         [-1,-1]
     }
 
+    pub fn is_valid_grid_cell(&self, row: i64, col: i64) -> bool{
+        row < self.field.iter().len() as i64 && col < self.field[(row as usize)].len() as i64
+    }
+
     pub fn get_end(&self) -> [i64; 2] {
         for row in 0..self.field.iter().len(){
             for col in 0..self.field[row].iter().len(){
