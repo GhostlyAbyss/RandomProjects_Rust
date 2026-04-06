@@ -6,9 +6,9 @@ version = 4
 name = "RandomStuff"
 version = "0.1.0"
 dependencies = [
+ "customMathStuff",
  "eframe",
  "egui",
- "log",
  "rand",
 ]
 
@@ -748,6 +748,11 @@ name = "cursor-icon"
 version = "1.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f27ae1dd37df86211c42e150270f82743308803d90a6f6e6651cd730d5e1732f"
+
+[[package]]
+name = "customMathStuff"
+version = "0.1.0"
+source = "git+https://github.com/GhostlyAbyss/RustMathStuff?branch=main#87db8ac92c4b9ceb983400e3281331b2b1fd9df9"
 
 [[package]]
 name = "dispatch"

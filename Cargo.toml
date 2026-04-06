@@ -7,4 +7,4 @@ edition = "2024"
 eframe = "0.33.3"
 rand = "0.10.0"
 egui = "0.33.3"
-log = "0.4.29"
+customMathStuff = { git = "https://github.com/GhostlyAbyss/RustMathStuff", branch = "main"}
